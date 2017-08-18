@@ -960,7 +960,7 @@
 					picker_max_year = input.data('max-year') && is_int(input.data('max-year')) ? input.data('max-year') : new Date().getFullYear(),
 					picker_min_year = input.data('min-year') && is_int(input.data('min-year')) ? input.data('min-year') : 1970,
 					picker_modal = input.data('modal') === true ? 'picker-modal' : '',
-					picker_theme = input.data('theme') || 'primary',
+					picker_theme = input.data('dp-theme') || 'primary',
 					picker_translate_mode = input.data('translate-mode') === true ? true : false;
 
 				if (picker_disabled_days) {
