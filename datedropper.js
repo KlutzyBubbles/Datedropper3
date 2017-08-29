@@ -624,7 +624,9 @@
 					}
 				});
 			}
-
+			if (picker.element.hasClass('picker-lg')) {
+				picker_fills();
+			}
 			get_picker_els('.pick-lg-b li.pick-v[data-value=' + get_current('d') + ']').addClass('pick-sl');
 		},
 		picker_fills = function() {
